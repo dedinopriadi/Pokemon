@@ -1,0 +1,129 @@
+nopriadi/dedi/pokemon/utils/Tools.java
+ nopriadi.dedi.pokemon.utils.Tools
+customfonts/MyTextView_Circularstd_Medium.java
+ customfonts.MyTextView_Circularstd_Medium
+customfonts/Button_sfuitext_regular.java
+ customfonts.Button_sfuitext_regular
+customfonts/MyListView.java
+ customfonts.MyListView
+customfonts/MyGridView.java
+ customfonts.MyGridView
+customfonts/MyEditText.java
+ customfonts.MyEditText
+nopriadi/dedi/pokemon/utils/Constanta.java
+ nopriadi.dedi.pokemon.utils.Constanta
+ nopriadi.dedi.pokemon.utils.Constanta$Message
+ nopriadi.dedi.pokemon.utils.Constanta$Url
+ nopriadi.dedi.pokemon.utils.Constanta$Values
+nopriadi/dedi/pokemon/adapter/PokemonAdapter.java
+ nopriadi.dedi.pokemon.adapter.PokemonAdapter
+ nopriadi.dedi.pokemon.adapter.PokemonAdapter$1
+customfonts/EditText_Roboto_Bold.java
+ customfonts.EditText_Roboto_Bold
+customfonts/MyTextView_SFUIText_Medium.java
+ customfonts.MyTextView_SFUIText_Medium
+nopriadi/dedi/pokemon/BuildConfig.java
+ nopriadi.dedi.pokemon.BuildConfig
+nopriadi/dedi/pokemon/data/StatsData.java
+ nopriadi.dedi.pokemon.data.StatsData
+customfonts/MyTextView_Montserrat_Regular.java
+ customfonts.MyTextView_Montserrat_Regular
+customfonts/EditText_Roboto_Italic.java
+ customfonts.EditText_Roboto_Italic
+customfonts/EditText_Roboto_Light.java
+ customfonts.EditText_Roboto_Light
+customfonts/MyTextView_sfuitext_regular.java
+ customfonts.MyTextView_sfuitext_regular
+customfonts/MyTextView.java
+ customfonts.MyTextView
+customfonts/MyTextView_Circularstd_Bold.java
+ customfonts.MyTextView_Circularstd_Bold
+customfonts/Button_SF_Pro_Display_Medium.java
+ customfonts.Button_SF_Pro_Display_Medium
+customfonts/MyTextView_SF_Pro_Display_Bold.java
+ customfonts.MyTextView_SF_Pro_Display_Bold
+customfonts/SFUIText_semibold.java
+ customfonts.SFUIText_semibold
+customfonts/CustomVideoView.java
+ customfonts.CustomVideoView
+ customfonts.CustomVideoView$PlayPauseListener
+customfonts/MyTextView_Circularstd_Book.java
+ customfonts.MyTextView_Circularstd_Book
+nopriadi/dedi/pokemon/data/PokemonData.java
+ nopriadi.dedi.pokemon.data.PokemonData
+customfonts/MyTextView_Montserrat_Light.java
+ customfonts.MyTextView_Montserrat_Light
+nopriadi/dedi/pokemon/activity/PokeListActivity.java
+ nopriadi.dedi.pokemon.activity.PokeListActivity
+ nopriadi.dedi.pokemon.activity.PokeListActivity$1
+ nopriadi.dedi.pokemon.activity.PokeListActivity$2
+ nopriadi.dedi.pokemon.activity.PokeListActivity$3
+ nopriadi.dedi.pokemon.activity.PokeListActivity$3$1
+ nopriadi.dedi.pokemon.activity.PokeListActivity$4
+customfonts/MyTextView_SF_Pro_Display_Light.java
+ customfonts.MyTextView_SF_Pro_Display_Light
+customfonts/ScrollingToolbarBehavior.java
+ customfonts.ScrollingToolbarBehavior
+customfonts/TextViewSFProDisplayRegular.java
+ customfonts.TextViewSFProDisplayRegular
+customfonts/Button_Roboto_Regular.java
+ customfonts.Button_Roboto_Regular
+customfonts/EditText_SFUI_Regular.java
+ customfonts.EditText_SFUI_Regular
+customfonts/EditText__SF_Pro_Display_Regular.java
+ customfonts.EditText__SF_Pro_Display_Regular
+customfonts/MyTextView_SF_Pro_Display_Medium.java
+ customfonts.MyTextView_SF_Pro_Display_Medium
+customfonts/MyTextView_Roboto_Italic.java
+ customfonts.MyTextView_Roboto_Italic
+customfonts/EditText_Roboto_Meidum.java
+ customfonts.EditText_Roboto_Meidum
+nopriadi/dedi/pokemon/helper/DatabaseHandler.java
+ nopriadi.dedi.pokemon.helper.DatabaseHandler
+customfonts/MyTextView_SF_Pro_Display_Semibold.java
+ customfonts.MyTextView_SF_Pro_Display_Semibold
+customfonts/Button_Roboto_Medium.java
+ customfonts.Button_Roboto_Medium
+nopriadi/dedi/pokemon/MainActivity.java
+ nopriadi.dedi.pokemon.MainActivity
+nopriadi/dedi/pokemon/adapter/StatsAdapter.java
+ nopriadi.dedi.pokemon.adapter.StatsAdapter
+nopriadi/dedi/pokemon/activity/SplashActivity.java
+ nopriadi.dedi.pokemon.activity.SplashActivity
+ nopriadi.dedi.pokemon.activity.SplashActivity$1
+customfonts/EditText__SF_Pro_Display_Medium.java
+ customfonts.EditText__SF_Pro_Display_Medium
+nopriadi/dedi/pokemon/api/Service.java
+ nopriadi.dedi.pokemon.api.Service
+nopriadi/dedi/pokemon/activity/MyPokeListActivity.java
+ nopriadi.dedi.pokemon.activity.MyPokeListActivity
+ nopriadi.dedi.pokemon.activity.MyPokeListActivity$1
+ nopriadi.dedi.pokemon.activity.MyPokeListActivity$2
+ nopriadi.dedi.pokemon.activity.MyPokeListActivity$3
+ nopriadi.dedi.pokemon.activity.MyPokeListActivity$4
+ nopriadi.dedi.pokemon.activity.MyPokeListActivity$5
+ nopriadi.dedi.pokemon.activity.MyPokeListActivity$6
+nopriadi/dedi/pokemon/activity/PokeDetailActivity.java
+ nopriadi.dedi.pokemon.activity.PokeDetailActivity
+ nopriadi.dedi.pokemon.activity.PokeDetailActivity$1
+ nopriadi.dedi.pokemon.activity.PokeDetailActivity$2
+ nopriadi.dedi.pokemon.activity.PokeDetailActivity$3
+ nopriadi.dedi.pokemon.activity.PokeDetailActivity$4
+nopriadi/dedi/pokemon/api/Client.java
+ nopriadi.dedi.pokemon.api.Client
+ nopriadi.dedi.pokemon.api.Client$1
+ nopriadi.dedi.pokemon.api.Client$CallBackRequest
+customfonts/TextView_Helvetica_Neue_bold.java
+ customfonts.TextView_Helvetica_Neue_bold
+customfonts/MyTextView_Circularstd_Black.java
+ customfonts.MyTextView_Circularstd_Black
+customfonts/EditText_Roboto_Regular.java
+ customfonts.EditText_Roboto_Regular
+customfonts/HelveticaNeueCondObl.java
+ customfonts.HelveticaNeueCondObl
+customfonts/MyTextView_Roboto_Regular.java
+ customfonts.MyTextView_Roboto_Regular
+customfonts/MyTextView_Pristina.java
+ customfonts.MyTextView_Pristina
+customfonts/EditText__SF_Pro_Display_Light.java
+ customfonts.EditText__SF_Pro_Display_Light

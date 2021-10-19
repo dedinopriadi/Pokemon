@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Created by Dedi Nopriadi on 10/15/21, 6:32 AM
+  ~ Copyright (c) 2021 . All rights reserved.
+  ~ Last modified 10/15/21, 6:32 AM
+  -->
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid android:color="@android:color/transparent" />
+        </shape>
+    </item>
+
+    <item>
+        <shape>
+            <solid android:color="@color/white" />
+            <corners
+                android:bottomLeftRadius="0dp"
+                android:bottomRightRadius="0dp"
+                android:topLeftRadius="35dp"
+                android:topRightRadius="35dp" />
+        </shape>
+    </item>
+</layer-list>

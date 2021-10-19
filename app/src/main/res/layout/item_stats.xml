@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Created by Dedi Nopriadi on 10/14/21, 1:40 PM
+  ~ Copyright (c) 2021 . All rights reserved.
+  ~ Last modified 10/14/21, 1:40 PM
+  -->
+
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.timqi.sectorprogressview.ColorfulRingProgressView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/circle_item_stats"
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            app:bgColor="#e1e1e1"
+            app:fgColorEnd="#ff4800"
+            app:fgColorStart="#ffe400"
+            app:percent="75"
+            app:startAngle="0"
+            app:strokeWidth="12dp" />
+
+        <customfonts.MyTextView_Circularstd_Medium
+            android:id="@+id/txt_item_stats"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:letterSpacing="0.023"
+            android:lineSpacingExtra="1dp"
+            android:text="Statistic"
+            android:textColor="#192027"
+            android:textSize="10.7sp" />
+
+    </RelativeLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

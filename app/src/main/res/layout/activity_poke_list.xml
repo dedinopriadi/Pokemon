@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Created by Dedi Nopriadi on 10/14/21, 7:29 PM
+  ~ Copyright (c) 2021 . All rights reserved.
+  ~ Last modified 10/14/21, 7:28 PM
+  -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bg_overlay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.PokeListActivity">
+
+    <ImageView
+        android:layout_width="260dp"
+        android:layout_height="260dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="end"
+        android:layout_marginTop="-50dp"
+        android:layout_marginEnd="-75dp"
+        android:adjustViewBounds="true"
+        android:alpha="0.10"
+        android:background="@drawable/pokeball"
+        android:tint="@color/white"
+        tools:ignore="UseAppTint" />
+
+    <customfonts.MyTextView_Circularstd_Bold
+        android:id="@+id/txt_list_head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:gravity="left"
+        android:letterSpacing="0.023"
+        android:lineSpacingExtra="1dp"
+        android:text="Pokémon List"
+        android:textColor="#192027"
+        android:textSize="21.7sp" />
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/swipe_refresh_layout"
+        android:layout_below="@+id/txt_list_head"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp">
+
+        <GridView
+            android:id="@+id/grid_pokemon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:footerDividersEnabled="false"
+            android:horizontalSpacing="9dp"
+            android:scrollbars="none"
+            android:fadeScrollbars="false"
+            android:numColumns="2"
+            android:verticalSpacing="13dp" />
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+</RelativeLayout>

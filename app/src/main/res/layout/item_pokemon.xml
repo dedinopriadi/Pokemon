@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Created by Dedi Nopriadi on 10/15/21, 3:11 AM
+  ~ Copyright (c) 2021 . All rights reserved.
+  ~ Last modified 10/15/21, 3:11 AM
+  -->
+
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_item_poke"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_marginTop="30dp"
+            app:cardCornerRadius="100dp"
+            app:cardElevation="5dp">
+
+            <ImageView
+                android:id="@+id/img_item_poke"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="25dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pokemon_2" />
+
+        </androidx.cardview.widget.CardView>
+
+        <customfonts.MyTextView_Circularstd_Bold
+            android:id="@+id/txt_item_poke"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:gravity="center"
+            android:letterSpacing="0.013"
+            android:lineSpacingExtra="1dp"
+            android:text="Pokémon"
+            android:textColor="#192027"
+            android:textSize="12.7sp" />
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

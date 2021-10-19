@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Created by Dedi Nopriadi on 10/14/21, 7:30 PM
+  ~ Copyright (c) 2021 . All rights reserved.
+  ~ Last modified 10/14/21, 7:30 PM
+  -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lay_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_main"
+    tools:context=".activity.PokeDetailActivity">
+
+    <ImageView
+        android:layout_width="260dp"
+        android:layout_height="260dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="end"
+        android:layout_marginTop="-50dp"
+        android:layout_marginEnd="-75dp"
+        android:adjustViewBounds="true"
+        android:alpha="0.10"
+        android:background="@drawable/pokeball"
+        android:tint="@color/white"
+        tools:ignore="UseAppTint" />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="5">
+
+        <RelativeLayout
+            android:layout_weight="3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <customfonts.MyTextView_Circularstd_Bold
+                android:id="@+id/txt_detail_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="37dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center_horizontal"
+                android:letterSpacing="0.023"
+                android:lineSpacingExtra="1dp"
+                android:text="Pokémon List"
+                android:textColor="@color/white"
+                android:textSize="21.7sp" />
+
+            <ImageView
+                android:id="@+id/img_detail_pokemon"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_below="@+id/txt_detail_name"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginBottom="0dp"
+                android:src="@drawable/pokemon_2" />
+
+            <LinearLayout
+                android:id="@+id/lay_detail_hw"
+                android:layout_below="@+id/img_detail_pokemon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:weightSum="2">
+
+                <customfonts.MyTextView_Circularstd_Medium
+                    android:id="@+id/txt_detail_height"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"
+                    android:gravity="left"
+                    android:letterSpacing="0.023"
+                    android:lineSpacingExtra="1dp"
+                    android:text="0.0 Metre"
+                    android:textColor="@color/white"
+                    android:textSize="12.7sp" />
+
+                <customfonts.MyTextView_Circularstd_Medium
+                    android:id="@+id/txt_detail_weight"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"
+                    android:gravity="right"
+                    android:letterSpacing="0.023"
+                    android:lineSpacingExtra="1dp"
+                    android:text="0.0 Kgs"
+                    android:textColor="@color/white"
+                    android:textSize="12.7sp" />
+
+            </LinearLayout>
+
+            <customfonts.MyTextView_Circularstd_Bold
+                android:id="@+id/txt_detail_type"
+                android:layout_below="@+id/lay_detail_hw"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center_horizontal"
+                android:letterSpacing="0.023"
+                android:lineSpacingExtra="1dp"
+                android:text="Type"
+                android:textColor="@color/white"
+                android:textSize="15.7sp" />
+
+        </RelativeLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:fillViewport="true"
+            android:scrollbars="none">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/round_top_white">
+
+                <LinearLayout
+                    android:id="@+id/lay_detail_sprites"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:weightSum="2"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/img_detail_sprites_front"
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:layout_weight="1"
+                        android:layout_below="@+id/txt_detail_name"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="0dp"
+                        android:src="@drawable/pokemon_2" />
+
+                    <ImageView
+                        android:id="@+id/img_detail_spritest_back"
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:layout_weight="1"
+                        android:layout_below="@+id/txt_detail_name"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="0dp"
+                        android:src="@drawable/pokemon_2" />
+
+                </LinearLayout>
+
+                <customfonts.MyGridView
+                    android:id="@+id/grid_detail_stat"
+                    android:layout_below="@+id/lay_detail_sprites"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:footerDividersEnabled="false"
+                    android:horizontalSpacing="3dp"
+                    android:numColumns="2"
+                    android:verticalSpacing="3dp" />
+
+                <customfonts.MyTextView_SF_Pro_Display_Medium
+                    android:id="@+id/btn_catch_poke"
+                    android:layout_below="@+id/grid_detail_stat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20.7dp"
+                    android:layout_marginTop="22dp"
+                    android:layout_marginRight="20.7dp"
+                    android:layout_marginBottom="30dp"
+                    android:background="@drawable/rect_btn_purple"
+                    android:gravity="center"
+                    android:onClick="catchPoke"
+                    android:paddingTop="16dp"
+                    android:paddingBottom="14dp"
+                    android:text="Catch Pokémon"
+                    android:textAllCaps="false"
+                    android:textColor="#ffffff"
+                    android:textSize="15sp" />
+
+                <androidx.legacy.widget.Space
+                    android:layout_below="@+id/btn_catch_poke"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp" />
+
+            </RelativeLayout>
+
+        </ScrollView>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</RelativeLayout>
